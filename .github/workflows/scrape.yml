@@ -2,7 +2,7 @@ name: Auto Stock Close Report
 
 on:
   schedule:
-    - cron: '12 21 * * 0-4'  # 台北週一~週五 05:12（UTC 週日~週四對應台北週一~週五）
+    - cron: '12 18 * * 0-4'  # 台北週一~週五 02:12（UTC 週日~週四對應台北週一~週五）
     - cron: '12 23 * * 0-4'  # 台北週一~週五 07:12
   workflow_dispatch: {}
 
